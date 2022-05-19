@@ -1,0 +1,47 @@
+name: BasitSayac
+
+version: 1.0
+
+api: 4.3.0
+
+main: Sayac\Main
+
+commands:
+
+  surem:
+
+    permission: surem.perm
+
+    description: Oyun içi sürenizi gösterir
+
+  suresifirla:
+
+    permission: suresifirla.perm
+
+    description: Oyundaki süreleri sıfırlar 
+
+  sureliste:
+
+    permission: sureliste.perm
+
+    description: Oyundaki süreleri büyükten küçüğe listeler
+
+permissions:
+
+  surem.perm:
+
+    default: true
+
+    description: Sure permi
+
+  suresifirla.perm:
+
+    default: op
+
+    description: Sifirlama permi
+
+  sureliste.perm:
+
+     default: true
+
+     description: Liste permi
