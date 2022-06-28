@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/UgurhanK/SimpleCounter
+build-by-default: true
+branches:
+- PocketMine-MP
+projects:
+  SimpleCounter:
+    path: ""
+...
